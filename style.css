@@ -1,0 +1,39 @@
+body {
+   font-family: Arial, sans-serif;
+   background-color: #f8f9fa;
+   margin: 0;
+}
+
+article {
+   position: fixed;
+   margin-left: 10px;
+   margin-top: 15px;
+   font-size: 16px;
+   color: #333; /* Text color */
+}
+
+#navlist {
+   background-color: #343a40; /* Dark gray background */
+   position: fixed;
+   left: 45%;
+   top: 0;
+   width: auto;
+   display: block;
+   transition: top 0.3s;
+}
+
+#navlist a {
+   float: left;
+   display: block;
+   color: #f8f9fa; /* Light gray text */
+   text-align: center;
+   padding: 10px;
+   text-decoration: none;
+   font-size: 14px; /* Smaller font size */
+   font-weight: bold; /* Bold font weight */
+}
+
+#navlist a:hover {
+   background-color: #f8f9fa; /* Light gray background on hover */
+   color: #333; /* Dark text on hover */
+}
